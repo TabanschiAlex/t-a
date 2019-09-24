@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-/* Header */
+	/* Header */
 
 header {
 	background-color: #333333;
@@ -39,7 +39,7 @@ header {
 
 .nav__link {
     margin-left: 40px;
-    color: red;
+    color: silver;
     text-decoration: none;
     opacity: 0.6;
     transition:  opacity 0.2s linear;
@@ -57,26 +57,50 @@ header {
     opacity: 1;
 }
 
-
-
+	/* === === */
 
 aside, section {
-	display: inline-block;
+	display: grid;
 	vertical-align: top;
+	margin: 0;
+	padding: 0;
 }
 
 aside {
-	background-color: #ffff00;
+	background-color: #808080;
+	color: #fff;
 	width: 20%;
+	float: right;
+	
+}
+.aside_content {
+	background: none;
+	align-items: center;
 }
 
 section {
-	background-color: gray;
-	width: 79%;
+	background-color: #fff;
+	width: 80%;
+	height: 800px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.main_text {
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 footer {
-	background-color: red;
+	background-color: #333333;
+	color: silver;
+	justify-content: center;
+	height:100px;
+	font-size: 40px;
+	align-items: center;
+	display: flex;
 }
 
 .photo-gallery {
